@@ -1,0 +1,37 @@
+.TodoItemCard {
+    background-color: #fff;
+    box-shadow: 0px 10px 15px -3px rgb(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block: .5rem;
+    padding-inline: 1.5rem;
+    cursor: pointer;
+    border-radius: .5rem;
+}
+
+.TodoItemContent {
+    display: flex;
+    min-width: 100%;
+    justify-content: space-between;
+}
+
+.TodoItemText {
+    font-family: sans-serif;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+}
+
+.TodoItemDone {
+    border: 0;
+    background-color: transparent;
+    font-size: large;
+}
+
+.TodoItemText.Feito{
+    text-decoration: line-through;
+}
+
+.TodoItemText.Fazer{
+    text-decoration: none;
+}

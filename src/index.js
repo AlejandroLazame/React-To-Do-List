@@ -1,15 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
-import TodoItem from './Components/TodoItem';
+import TodoList from './Components/TodoList';
+import FormNewItem from './Components/FormNewItem';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
-    <TodoItem />
+    <FormNewItem></FormNewItem>
+    <TodoList></TodoList>
   </React.StrictMode>
 );
 
