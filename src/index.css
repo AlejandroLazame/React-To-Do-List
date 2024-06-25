@@ -12,3 +12,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.TodoListHeader {
+  display: flex;
+  justify-content: center;
+  font-size: 16pt;
+  font-family: 'Courier New', Courier, monospace;
+  font-style: italic;
+  padding: 1rem 0rem 0.3rem 0rem;
+}
+
+.TodoListHeader h4 {
+  margin: 0;
+}

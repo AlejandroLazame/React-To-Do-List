@@ -6,17 +6,6 @@
     min-width: 100vw;
 }
 
-.TodoListHeader {
-    font-size: 16pt;
-    font-family: 'Courier New', Courier, monospace;
-    font-style: italic;
-    padding-block: 1rem;
-}
-
-.TodoListHeader h4 {
-    margin: 0;
-}
-
 .TodoListSection {
     width: 100vw;
     display: flex;

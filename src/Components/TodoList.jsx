@@ -17,9 +17,6 @@ function TodoList() {
 
     return (
         <div className="TodoContent">
-            <header className="TodoListHeader">
-                <h4>To do</h4>
-            </header>
             <section className="TodoListSection">
                 <ul className="TodoList">
                     {tasks.map((task) => {

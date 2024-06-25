@@ -8,6 +8,9 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <header className="TodoListHeader">
+        <h4>To do</h4>
+    </header>
     <FormNewItem></FormNewItem>
     <TodoList></TodoList>
   </React.StrictMode>
